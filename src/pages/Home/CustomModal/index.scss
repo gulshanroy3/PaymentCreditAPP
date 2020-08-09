@@ -1,0 +1,17 @@
+.credit-modal-wrapper{
+    padding: 24px;
+    width:250px;
+    .credit-balance{
+        text-align: center;
+    }
+    .button-q-wrapper{
+        margin-top: 24px;
+        .credit-q{
+            text-align: center;
+        }
+        .button-wrapper{
+            display: flex;
+            margin-top: 12px;
+        }
+    }
+}

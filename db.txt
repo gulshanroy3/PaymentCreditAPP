@@ -1,0 +1,7 @@
+### DataBase name=IVoyant
+This database has 3 colllection 
+1 config
+2 invoice
+3 vendors
+
+userId of each user in invoice and vendors should be same as config mongo generated id.

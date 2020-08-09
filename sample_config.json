@@ -1,0 +1,50 @@
+{
+    "config" : {
+        "column" : [ 
+            {
+                "label" : "Invoice Id",
+                "key" : "invoiceId",
+                "status" : true
+            }, 
+            {
+                "label" : "Vendor Id",
+                "key" : "vendorId",
+                "status" : true
+            }, 
+            {
+                "label" : "Quantity",
+                "key" : "quantity",
+                "status" : true
+            }, 
+            {
+                "label" : "Product",
+                "key" : "product",
+                "status" : true
+            }, 
+            {
+                "label" : "Balance Amount",
+                "key" : "amountBal",
+                "status" : true
+            }, 
+            {
+                "label" : "Amount Due",
+                "key" : "amountDue",
+                "status" : true
+            }, 
+            {
+                "label" : "Invoice Date",
+                "key" : "invoiceDate",
+                "status" : true
+            }
+        ],
+        "endPonits" : {
+            "invoice" : "/invoice",
+            "vendors" : "/vendors",
+            "credit" : "/credit/apply",
+            "payment" : "/payment"
+        },
+        "userAccess" : {
+            "allowCreditAdjustment" : true
+        }
+    }
+}

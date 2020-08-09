@@ -1,0 +1,23 @@
+{
+    "userId" : "5f2e968b0908450a2f80f609",
+    "vendors" : [ 
+        {
+            "vendorId" : "D1",
+            "vendorName" : "Delmonte",
+            "creditBal" : 590
+        }, 
+        {
+            "vendorId" : "T1",
+            "vednorName" : "Target"
+        }, 
+        {
+            "vendorId" : "W1",
+            "vendorName" : "Walmart",
+            "creditBal" : 10
+        }, 
+        {
+            "vendorId" : "G1",
+            "creditBal" : 0.0
+        }
+    ]
+}
